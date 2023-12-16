@@ -12,3 +12,4 @@ NodeJS, WebRTC, Websocket 을 이용한 줌 클론코딩.
 - npm i express
 - npm i pug
 - npm i ws
+- npm i socket.io

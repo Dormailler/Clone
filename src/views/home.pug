@@ -4,11 +4,21 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Noom
+        title 줌
         link(rel="stylesheet", href="https://unpkg.com/mvp.css")
     body
         header
-            h1 Noom
+            h1 줌
         main
-            h2 Welcome to Noom
+            div#welcome
+                form 
+                    input(placeholder="방 이름",required,type="text")
+                    button 입장하기
+            div#room
+                h3 
+                ul 
+                form
+                    input(placeholder="메시지",required,type="text")
+                    button 보내기
+        script(src="/socket.io/socket.io.js")
         script(src="/public/js/app.js") 
