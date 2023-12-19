@@ -1,6 +1,6 @@
 # Zoom
 
-NodeJS, WebRTC, Websocket 을 이용한 줌 클론코딩.
+NodeJS, WebRTC, SocketIO 등을 이용한 줌 클론코딩.
 
 실행 - npm run dev
 
@@ -13,3 +13,4 @@ NodeJS, WebRTC, Websocket 을 이용한 줌 클론코딩.
 - npm i pug
 - npm i ws
 - npm i socket.io
+- npm i @socket.io/admin-ui
