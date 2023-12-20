@@ -14,3 +14,5 @@ NodeJS, WebRTC, SocketIO 등을 이용한 줌 클론코딩.
 - npm i ws
 - npm i socket.io
 - npm i @socket.io/admin-ui
+- npm i -g localtunnel
+- lt --port 3000
