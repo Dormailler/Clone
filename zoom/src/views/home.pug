@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title 줌
+        link(rel="stylesheet", href="https://unpkg.com/mvp.css")
+    body
+        header
+            h1 줌
+        main
+            div#welcome
+                form
+                    input(placeholder="방 이름",required,type="text")
+                    button 입장하기
+            div#call
+                div#myStream
+                    video#myFace(autoplay,playsinline,width="400",height="400")
+                    button#mute 음소거
+                    button#camera 카메라 끄기
+                    select#cameras
+                video#peersFace(autoplay,playsinline,width="400",height="400")
+        script(src="/socket.io/socket.io.js")
+        script(src="/public/js/app.js") 
